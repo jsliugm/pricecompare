@@ -18,7 +18,7 @@
         <logger name="druid.sql.DataSource" level="DEBUG"/>
         <logger name="druid.sql.Statement" level="DEBUG"/>
         <logger name="druid.sql.ResultSet" level="DEBUG"/>
-        <root level="debug">
+        <root level="INFO">
             <appender-ref ref="CONSOLE" />
         </root>
     </springProfile>
